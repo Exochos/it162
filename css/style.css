@@ -1,0 +1,98 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+nav {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin:0px;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    margin-left: -10px;
+}
+header {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin:0px;
+    text-align: center;
+    width: 100%;
+    margin-left: -10px;
+}
+img {
+    float: right;
+    margin:20px;
+}
+a {
+    color:black;
+}
+a:hover {
+    color:black;
+    background-color:white;
+    font-weight: bolder;
+}
+h1 {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    padding-left: 1em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    img.desktop, img.tablet {
+        display: none;
+    }
+    img.phone {
+        display:inline-block;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    img.desktop, img.tablet {
+        display: none;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    img.desktop, img.phone {
+        display: none;
+    }
+    img.tablet {
+        display: inline-block;
+        width: 40%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    img.phone, img.tablet
+    {
+        display:none;
+    }
+    img.desktop {
+        display: inline-block;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    img.phone, img.tablet
+    {
+        display:none;
+    }
+
+    
+}

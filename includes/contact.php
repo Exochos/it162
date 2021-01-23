@@ -1,9 +1,4 @@
-<?php $title = "contact page"; ?>
-<?php include('includes/header.php'); ?>
-<?php include('includes/navbar.php'); ?>
-    <!-- Wrapper for everthing -->
-    <div class="wrapper" style="display:inline;position:relative;left:5%;top:15%;">
-        <?php
+<?php
     
         include 'includes/contact_include.php'; #site keys & code here
     
@@ -15,5 +10,3 @@
         //echo loadContact('multiple.php');#demonstrates multiple form elements
 
 	?>
-    </div>
-<?php include('includes/footer.php'); ?>

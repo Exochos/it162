@@ -1,6 +1,9 @@
 		/* start reCAPTCHA styles */
 		
-		/* writes to small text above reCAPTCHA upon failure */
+    /* writes to small text above reCAPTCHA upon failure */
+    .formz {
+      margin: 10px;
+    }
 		.dateFeedback{
 			font-style:italic;
 			font-size:70%;
@@ -8,7 +11,7 @@
 			color:#f00;
 		}
         input:required {
-              border: 1px solid red;
+              border: 2px solid red;
         }
 
          input:optional, textarea:optional {

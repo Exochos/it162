@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
  <!-- Meta information we are also using a cdn to get jquery-->
- <title> Jeremy Ward IT162</title>
+ <title> <?=$title?></title>
  <meta charset="utf-8" />    
  <meta name="description" content="Jeremy Wards Portal For IT162" />
  <meta name="author" content="Jeremy Ward" />

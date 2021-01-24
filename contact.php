@@ -15,6 +15,7 @@
         echo loadContact('simple.php');#demonstrates a simple contact form
         //echo loadContact('multiple.php');#demonstrates multiple form elements
 
-	?>
+    ?>
+    <div class="spacer" style="width:200px;height:60px;">&nbsp;</div>
     </div>
 <?php include('includes/footer.php'); ?>

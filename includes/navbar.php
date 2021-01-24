@@ -4,7 +4,7 @@
         </h1>
     <!-- Begin Nav-->
     <nav class="topnav" id="myTopnav">
-        <a href="index.html" class='active'>Welcome</a>
+        <a href="index.php" class='active'>Welcome</a>
         <a href="big/index.html">BIG</a>
         <a href="aia.html">AIA</a>
         <a href="flowchart.html">FlowChart</a>

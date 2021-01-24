@@ -3,7 +3,7 @@
 <?php include('includes/navbar.php'); ?>
     <!-- Wrapper for everthing -->
     <div class="wrapper" style="display:inline;position:relative;left:5%;top:15%;">
-    <div class="spacer" style="width:200px;height:200px;">&nbsp;</div>
+    <div class="spacer" style="width:200px;height:60px;">&nbsp;</div>
         <?php
     
         include 'includes/contact_include.php'; #site keys & code here

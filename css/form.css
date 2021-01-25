@@ -1,10 +1,6 @@
 		/* start reCAPTCHA styles */
 		
     /* writes to small text above reCAPTCHA upon failure */
-    .formz {
-      margin: 10px;
-      padding: 10px;
-    }
 		.dateFeedback{
 			font-style:italic;
 			font-size:70%;

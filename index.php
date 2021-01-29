@@ -1,5 +1,4 @@
 <?php include('includes/header.php'); ?>
-<?php include('includes/navbar.php'); ?>
     <!-- Wrapper for everthing -->
     <div class="wrapper">
 

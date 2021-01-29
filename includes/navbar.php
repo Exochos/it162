@@ -1,5 +1,5 @@
 <header id="header">
-        <h1><i class="logo fa fa-home"></i>
+        <h1><i class="logo fa <?=$logo?>"></i>
             <?php echo $title ?></sub>
         </h1>
     <!-- Begin Nav-->

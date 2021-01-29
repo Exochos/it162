@@ -1,6 +1,6 @@
 <header id="header">
-        <h1>
-            Jeremy Ward's IT162 <sub><?php echo $title ?></sub>
+        <h1><i class="logo fa fa-home">
+            <?php echo $title ?></sub>
         </h1>
     <!-- Begin Nav-->
     <nav class="topnav" id="myTopnav">

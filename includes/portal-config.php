@@ -19,7 +19,7 @@ switch(THIS_PAGE) {
         $logo = 'fa-home';
         $PageID = 'Welcome';
     break;
-    case 'contactme.php':
+    case 'contact.php':
         $title = "Jeremy's Contact Page";
         $logo = 'fa-pencil-square-o';
         $PageID = 'Contact Jeremy';

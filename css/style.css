@@ -49,6 +49,10 @@ img {
     float: right;
     margin:1em;
 }
+i.logo {
+    color: black; /* a less boring color */
+    text-shadow:1px 1px #ccc; /* gives the icon a little depth */
+    font-size:1.25em; /* font awesome icons are text, so make it a bit bigger */
 
 @media only screen and (max-width: 600px) {
     img.desktop, img.tablet {

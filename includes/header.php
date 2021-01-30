@@ -17,7 +17,7 @@
 </head>
 <body>
 <header id="header">
-        <h1><i class="logo fa <?=$logo?>"<?$logo_color?>></i>
+        <h1><i class="logo fa <?=$logo?>"<?=$logo_color?>></i>
             <?php echo $title ?></sub>
         </h1>
     <!-- Begin Nav-->

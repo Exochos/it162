@@ -25,13 +25,13 @@ switch(THIS_PAGE) {
         $title = "Jeremy's Contact Page";
         $logo = 'fa-pencil-square-o';
         $PageID = 'Contact Jeremy';
-        $logo_color = ' style="color:#0f0';
+        $logo_color = ' style="color:#0f0"';
     break;
 
     case 'aia.php':
         $title = "Jeremy Final Project Audience, Issues and Approach Research";
         $logo = "fa-universal-access";
-        $logo_color = ' style="color:#00f';
+        $logo_color = ' style="color:#00f"';
 
 
     default: 

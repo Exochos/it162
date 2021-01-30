@@ -21,12 +21,11 @@
             <?php echo $title ?></sub>
         </h1>
     
-    <nav>
-    <ul class="topnav" id="myTopnav">
+    <nav class="topnav" id="myTopnav">
       <?=makeLinks($nav1)?>   
 
 
-
+      
     <!-- Comment out
         <a href="index.php" class='active'>Welcome</a>
         <a href="big/index.html">BIG</a>
@@ -39,7 +38,6 @@
 
 
         <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i>&#9776;</a>
-        </ul>
     </nav>
     
 

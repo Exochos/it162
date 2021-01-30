@@ -62,7 +62,7 @@ function makeLinks($linkArray) {
     foreach($linkArray as $url => $text) {
         if($url == THIS_PAGE)
         {//selected page - add class reference
-	    	$myReturn .= '<li><a class="selected" href="' . $url . '">' . $text . '</a></li>';
+	    	$myReturn .= '<a class="selected" href="' . $url . '">' . $text . '</a>' . PHP_EOL;
     	}else{
 	    	$myReturn .= '<li><a href="' . $url . '">' . $text . '</a></li>'  . PHP_EOL;
     	}    

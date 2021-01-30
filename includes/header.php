@@ -21,9 +21,12 @@
             <?php echo $title ?></sub>
         </h1>
     
-    <nav class="topnav" id="myTopnav">
-    <ul>
+    <nav>
+    <ul class="topnav" id="myTopnav">
       <?=makeLinks($nav1)?>   
+
+
+
     <!-- Comment out
         <a href="index.php" class='active'>Welcome</a>
         <a href="big/index.html">BIG</a>

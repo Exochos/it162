@@ -64,7 +64,7 @@ function makeLinks($linkArray) {
         {//selected page - add class reference
 	    	$myReturn .= '<a class="selected" href="' . $url . '">' . $text . '</a>' . PHP_EOL;
     	}else{
-	    	$myReturn .= '<li><a href="' . $url . '">' . $text . '</a></li>'  . PHP_EOL;
+	    	$myReturn .= '<a href="' . $url . '">' . $text . '</a>'  . PHP_EOL;
     	}    
     }
       

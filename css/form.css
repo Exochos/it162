@@ -5,7 +5,8 @@
 			font-style:italic;
 			font-size:70%;
 			font-weight:bold;
-			color:#f00;
+      color:#f00;
+      padding: 2px;
 		}
         input:required {
               border: 2px solid red;

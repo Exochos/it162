@@ -23,9 +23,6 @@
     
     <nav class="topnav" id="myTopnav">
       <?=makeLinks($nav1)?>   
-
-
-      
     <!-- Comment out
         <a href="index.php" class='active'>Welcome</a>
         <a href="big/index.html">BIG</a>
@@ -34,8 +31,6 @@
         <a href="fp/index.html">Final Project</a>
         <a href="contact.php"><i class="fa fa-envelope-open-o" aria-hidden="true"></i> Contact Jeremy</a>
         End comment out nav -->
-
-
 
         <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i>&#9776;</a>
     </nav>

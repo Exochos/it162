@@ -5,7 +5,7 @@
 <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-8">
-      <h2>Accessability</h2>
+      <h2>Accessibility</h2>
       <h5>Accessibility - the Web and the Developer, Fed 2, 2020</h5>
       
       <p>Web accessibility is incredibly important for any web developer. “One in four adults in the United States has a disability”  many of which require the use of non-standard browsers, business would be unwise to exclude these potential customers. In addition, the US government and education system has made it “illegal discrimination” to fail to provide online information accessibility within goverment websites.</p>
@@ -17,7 +17,7 @@
       <br><br><br>
     </div>
         <div class="col-sm-4">
-            <p><img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Accessibility.svg" alt="accessability"></p>
+            <p><div class='embed-container'><iframe src='https://www.youtube.com/embed/-ao_Kc_8rpE' allowfullscreen></iframe></div></p>
             <h3>Resources and Citations:</h3>
             <ul>
                 <li>“Disability Impacts All of Us Infographic.” Centers for Disease Control and Prevention, 16 Sept. 2020, <a href="www.cdc.gov/ncbddd/disabilityandhealth/infographic-disability-impacts-all.html">www.cdc.gov/ncbddd/disabilityandhealth/infographic-disability-impacts-all.html</a></li>

@@ -7,8 +7,8 @@
 <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-8">
-      <h2>Google Maps</h2>
-      <h5>The Spheres are very round</h5>
+      <h2>The Spheres</h2>
+      <h5>2111 7th Ave, Seattle, WA 98121  <a href=”tel:++12062664064>(206) 266-4064</a></h5>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2261.646654834355!2d-122.34335842654397!3d47.61512235757143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154bca117fb1%3A0x7f39ceca621d130c!2sThe%20Spheres!5e0!3m2!1sen!2sus!4v1613875258208!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       <br>
     </div>

@@ -17,7 +17,7 @@
 
 
 <!-- Header will be consistant -->
-<div class="jumbotron text-center" style="margin-bottom:0">
+<div class="jumbotron" style="margin-bottom:0">
   <h1> wardsDesign: <?php echo $title; ?> </h1>
 </div>
 

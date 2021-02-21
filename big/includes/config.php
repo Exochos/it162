@@ -16,13 +16,15 @@ $logo_color = '';
 //place URL & labels in the array here for navigation:
 
     $nav1['index.php'] = "Welcome";
-    $nav1['gallery.php'] = "Gallery";
+    //$nav1['gallery.php'] = "Gallery";
     $nav1['responsive.php'] = "Responsive vs Mobile";
     $nav1['flexbox.php'] = "Flexbox";
    // $nav1['.php'] = "Other";
-    $nav1['accessability.php'] = "Accessibiliy";
-    $nav1['google.php'] = "Google";
+    $nav1['accessibility.php'] = "Accessibility";
+    $nav1['googlecal.php'] = "Google Calender";
+    $nav1['googlemaps.php'] = "Google Maps";
     $nav1['webcam.php'] = "Webcam";
+    $nav1['contact.php'] = "Contact";
     
 
 switch(THIS_PAGE) {
@@ -54,15 +56,22 @@ switch(THIS_PAGE) {
         $logo_color = ' style="color:#00f"';
     break;
 
-    case 'accessability.php':
-        $title = "accessability";
+    case 'accessibility.php':
+        $title = "Accessibility";
         $logo = "fa-universal-access";
         $PageID = 'FlexBox';
         $logo_color = ' style="color:#00f"';
     break;
 
-    case 'google.php':
+    case 'googlecal.php':
         $title = "google";
+        $logo = "fa-universal-access";
+        $PageID = 'FlexBox';
+        $logo_color = ' style="color:#00f"';
+    break;
+
+    case 'googlemaps.php':
+        $title = "google maps";
         $logo = "fa-universal-access";
         $PageID = 'FlexBox';
         $logo_color = ' style="color:#00f"';

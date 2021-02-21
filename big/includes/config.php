@@ -64,9 +64,9 @@ switch(THIS_PAGE) {
     break;
 
     case 'googlecal.php':
-        $title = "google";
+        $title = "google calendar";
         $logo = "fa-universal-access";
-        $PageID = 'FlexBox';
+        $PageID = 'Google Calendar';
         $logo_color = ' style="color:#00f"';
     break;
 

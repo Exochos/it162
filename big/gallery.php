@@ -1,15 +1,11 @@
 <?php include("includes/config.php"); ?>
 <?php include("includes/header.php"); ?>
 
-<h3>A Four Image Set</h3>
-   
-  </section>
   <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-8">
 
       <h2>Lightbox Gallery</h2>
-      <h5>Title description, Dec 7, 2017</h5>
 
 
 

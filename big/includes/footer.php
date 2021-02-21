@@ -7,6 +7,6 @@
   </div>
 </footer>
 <!-- End Footer-->
-
+<script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>

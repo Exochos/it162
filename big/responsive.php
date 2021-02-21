@@ -58,7 +58,6 @@
                 <li>Babich, Nick, et al. “Deciding Between Responsive Web or Native Apps: Adobe XD Ideas.” Ideas, 7 Apr. 2020, <a href="xd.adobe.com/ideas/principles/web-design/responsive-web-or-native-app/">xd.adobe.com/ideas/principles/web-design/responsive-web-or-native-app/</a> </li>
                 <li>O'Dea, Published by S., and Dec 10. “Smartphone Users 2020.” Statista, 10 Dec. 2020, <a href="www.statista.com/statistics/330695/number-of-smartphone-users-worldwide/">www.statista.com/statistics/330695/number-of-smartphone-users-worldwide/</a></li>
                 <li>Cherednichenko, Sveta. “Mobile App, Responsive Website, or Something in Between: What to Choose for Your Business.” Mobindustry, 20 May 2020, <a href="www.mobindustry.net/mobile-app-responsive-website-or-something-in-between-what-to-choose-for-your-business-in-2019/">www.mobindustry.net/mobile-app-responsive-website-or-something-in-between-what-to-choose-for-your-business-in-2019/</a>.</li>
-                <li></li>
         </div>
 
 

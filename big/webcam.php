@@ -11,7 +11,7 @@
     </div>
         <div class="col-sm-4">
       <h2>Webcam</h2>
-      <iframe src="https://cwwp2.dot.ca.gov/vm/loc/d4/tv980i80redtoproad.htm" width="320" height="260" scrolling="auto"></iframe>
+      <iframe src="https://cwwp2.dot.ca.gov/vm/loc/d4/tv980i80redtoproad.htm" width="320" height="260"></iframe>
 
     </div>
   </div>

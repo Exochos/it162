@@ -9,6 +9,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <link rel="stylesheet" href="css/lightbox.css">
+  <script src="js/lightbox.js"></script>
+  <script src=""></script>
 </head>
 <body>
 <!-- Header -->
@@ -30,7 +34,7 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
         <!-- Make the links here -->
-        <?=makeLinks($nav1)?>  
+        <?=makeLinks($nav1, $logo)?>  
     </div>
   </div>
 </nav>

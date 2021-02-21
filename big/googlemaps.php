@@ -1,9 +1,10 @@
+<!-- Import config and header -->
 <?php include("includes/config.php"); ?>
 <?php include("includes/header.php"); ?>
 
 
 
-
+<!-- Main Content -->
 <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-8">

@@ -16,7 +16,7 @@ $logo_color = '';
 //place URL & labels in the array here for navigation:
 
     $nav1['index.php'] = "Welcome";
-    //$nav1['gallery.php'] = "Gallery";
+    $nav1['gallery.php'] = "Gallery";
     $nav1['responsive.php'] = "Responsive vs Mobile";
     $nav1['flexbox.php'] = "Flexbox";
    // $nav1['.php'] = "Other";
@@ -97,12 +97,12 @@ Call like this:
 echo makeLinks($nav1); #in which $nav1 is an associative array of links
 */
 
-function makeLinks($linkArray) {
+function makeLinks($linkArray, $logo) {
     $myReturn = '';
     foreach($linkArray as $url => $text) {
         if($url == THIS_PAGE)
         {//selected page - add class reference
-            $myReturn .= '<a class="nav-item nav-link active" href="' . $url . '">'.$text.'<span class="sr-only">(current)</span></a>' . PHP_EOL;
+            $myReturn .= '<i class="'.$logo.'"></i><a class="nav-item nav-link active" href="' . $url . '">'.$text.'<span class="sr-only">(current)</span></a>' . PHP_EOL;
     	}else{
             $myReturn .= '<a class="nav-item nav-link" href="'. $url . '">' . $text . '</a>' . PHP_EOL;
     	}    

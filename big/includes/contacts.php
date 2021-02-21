@@ -6,7 +6,7 @@
         $toName = "Jeremy Ward"; //place your client's name here
         $website = "35.226.47.22";  //place NAME of your client's website
 
-        echo loadContact('simple.php');#demonstrates a simple contact form
-        //echo loadContact('multiple.php');#demonstrates multiple form elements
+        //echo loadContact('simple.php');#demonstrates a simple contact form
+        echo loadContact('multiple.php');#demonstrates multiple form elements
 
 	?>

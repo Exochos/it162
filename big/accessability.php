@@ -13,7 +13,7 @@
       <p>Several studies have shown that industry best practice in regards to accessibility also results in faster load times and better SEO ROI. Additionally, content is easier to access and gives businesses a wider industry reach. “It’s becoming clear that major search engines, such as Google, are promoting the SEO benefits of Web Accessibility techniques …  The overlap between SEO and WCAG in over 10 key areas is another motivation that becoming WCAG 2.0 compliant will buttress your SEO score in the eyes of the major search engines.”</p>
       <p>As a web developer it was new to me to think about creating a site which not only does all of the normal services but also ensuring that content is easily accessible to all possible audiences. Making sure my site creates a welcoming experience for all. </p>
       <p>During the course of my research I have found several very helpful tools and websites whcih I love!. The first amazing site I  found was : <a href="https://www.digitala11y.com/accessibility-cheat-sheets/">https://www.digitala11y.com/accessibility-cheat-sheets/ </a>which is massive dump of various cheatsheets to help the developer create a totally usable website.
-      Another site I found incredibly helpful was: <a href="https://codepen.io/weboverhauls/full/zYvopYE" alt="codepen">https://codepen.io/weboverhauls/full/zYvopYE</a> which has a handy checklist that a developer can work through.</p>
+      Another site I found incredibly helpful was: <a href="https://codepen.io/weboverhauls/full/zYvopYE">https://codepen.io/weboverhauls/full/zYvopYE</a> which has a handy checklist that a developer can work through.</p>
       <br><br><br>
     </div>
         <div class="col-sm-4">

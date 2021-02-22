@@ -6,8 +6,10 @@
   <div class="row">
     <div class="col-sm-8">
       <h2>Google Calendar Embed</h2>
+      <div class=".responsive-iframe-container">
       <p class="cal"><iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=ZDkza3BvbHVudHBwMWRjaTdvZWNmZnYxNWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%239E69AF&amp;color=%237986CB&amp;mode=MONTH&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showTabs=0&amp;showPrint=0&amp;showTz=0&amp;showCalendars=0" style="border:solid 1px #777" width="600" height="600" frameborder="0" scrolling="no"></iframe></p>
       <p class="cal2"><iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=ZDkza3BvbHVudHBwMWRjaTdvZWNmZnYxNWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%239E69AF&amp;color=%237986CB&amp;mode=AGENDA&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showTabs=0&amp;showPrint=0&amp;showTz=0&amp;showCalendars=0" style="border:solid 1px #777" width="300" height="500" frameborder="0" scrolling="no"></iframe></p>
+      </div>
       <br>
     </div>
     <div class="col-sm-4">

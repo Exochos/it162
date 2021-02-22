@@ -20,8 +20,7 @@
             </ol>
          </p>
       <br>
-      
-    </div>
+      </div>
         <div class="col-sm-4">
     
       <h3>Resources & Citations:</h3>

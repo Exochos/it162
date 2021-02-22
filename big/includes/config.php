@@ -31,27 +31,27 @@ switch(THIS_PAGE) {
 
     case 'index.php' : 
         $title = "midterm";
-        $logo = 'fa-home';
+        $logo = 'fa fa-home';
         $PageID = 'Home';
     break;
 
     case 'gallery.php':
         $title = "gallery";
-        $logo = 'fa-pencil-square-o';
+        $logo = 'fa fa-pencil-square-o';
         $PageID = 'Gallery Page';
         $logo_color = ' style="color:#0f0"';
     break;
 
     case 'responsive.php':
         $title = "responsive vs mobile";
-        $logo = "fa-universal-access";
+        $logo = "fa fa-universal-access";
         $PageID = 'Gallery';
         $logo_color = ' style="color:#00f"';
     break;
 
     case 'flexbox.php':
         $title = "flexbox";
-        $logo = "fa-universal-access";
+        $logo = "fa fa-universal-access";
         $PageID = 'FlexBox';
         $logo_color = ' style="color:#00f"';
     break;
@@ -102,7 +102,7 @@ function makeLinks($linkArray, $logo) {
     foreach($linkArray as $url => $text) {
         if($url == THIS_PAGE)
         {//selected page - add class reference
-            $myReturn .= '<a class="nav-item nav-link active" href="' . $url . '"><i class="'.$logo.'">&nbsp;</i>'.$text.'<span class="sr-only">(current)</span></a>' . PHP_EOL;
+            $myReturn .= '<a class="nav-item nav-link active" href="' . $url . '"><i class="'.$logo.'" aria-hidden="true">&nbsp;</i>'.$text.'<span class="sr-only">(current)</span></a>' . PHP_EOL;
     	}else{
             $myReturn .= '<a class="nav-item nav-link" href="'. $url . '">' . $text . '</a>' . PHP_EOL;
     	}    

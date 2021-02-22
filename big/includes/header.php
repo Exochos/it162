@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/lightbox.min.css">
   <link rel="stylesheet" href="css/lightbox.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css">
   <script src="js/lightbox.js"></script>
   <script src=""></script>
 </head>

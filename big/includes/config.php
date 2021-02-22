@@ -26,7 +26,7 @@ $logo_color = '';
     $nav1['webcam.php'] = "Webcam";
     $nav1['contact.php'] = "Contact";
     
-
+    $nav2['index.php'] = array ("midterm", "fa-home", "home");
 switch(THIS_PAGE) {
 
     case 'index.php' : 
@@ -102,7 +102,7 @@ function makeLinks($linkArray, $logo) {
     foreach($linkArray as $url => $text) {
         if($url == THIS_PAGE)
         {//selected page - add class reference
-            $myReturn .= '<i class="'.$logo.'"></i><a class="nav-item nav-link active" href="' . $url . '">'.$text.'<span class="sr-only">(current)</span></a>' . PHP_EOL;
+            $myReturn .= '<a class="nav-item nav-link active" href="' . $url . '"><i class="'.$logo.'">&nbsp;</i>'.$text.'<span class="sr-only">(current)</span></a>' . PHP_EOL;
     	}else{
             $myReturn .= '<a class="nav-item nav-link" href="'. $url . '">' . $text . '</a>' . PHP_EOL;
     	}    

@@ -57,7 +57,12 @@
         </a>
         <a class="demo" href="images/doggo6.jpg" data-lightbox="example-1">
             <img class="example-image" src="images/doggo6_tn.jpg" alt="image-1">
-        </a>
+        </a><br>
+        <h3>Resources and Cited:</h3>
+        <ul>
+        <li>Semenov, Dmitry. “Responsive JavaScript Image Gallery.” PhotoSwipe,<a href="photoswipe.com"> photoswipe.com</a></li>
+        </ul>
+        
     </div>
     </div>
   </div>

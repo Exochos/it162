@@ -1,9 +1,170 @@
-body, html
-{
-    margin: 0; padding: 0; height: 100%; overflow: hidden;
+html {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+aside {
+    padding: 1rem;
+    grid-area: aside;
+    background-color: white;
+    color: black;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto 1fr auto auto;
+    grid-template-areas:
+    "header header"
+    "nav nav"
+    "main main"
+    "aside aside"
+    "footer footer";
+}
+footer {
+    padding: 1rem;
+    grid-area: footer;
+    background-color: #ddd;
+}
+header {
+    padding: .5rem;
+    grid-area: header;
+    font-family: 'Tangerine', serif;
+    font-size: 36px;
+    text-shadow: 4px 4px 4px #aaa;
+    background-color: lightcyan;
+}
+main {
+padding: 1rem;
+grid-area: main;
+}
+nav {
+grid-area: nav;
+display: flex;
+flex-flow: column nowrap;
+align-items: stretch;
+position: sticky;
+top: 0;
+max-height: 100vh;
+font-size: 2rem;
+}
+nav * {
+margin: 0;
+padding: 0.3rem;
+text-align: center;
+text-decoration: none;
+}
+nav a {
+display: flex;
+align-items: center;
+transition: 250ms ease-in-out;
+transition-property: color, background-color;
+}
+nav a:not(.active),
+nav a:not(.open-icon) {display: none;}
+nav span {display: inline;}
+nav.open a {display: block;}
+nav a.active {display: block}
+nav div.middle {
+display: none;
+flex-grow: 1;
+}
+nav div.open-icon {display: block; font-weight: bold;}
+nav a:hover {
+text-decoration: underline;
 }
 
-#content
-{
-    position:absolute; left: 0; right: 0; bottom: 0; top: 0px; 
+.code {font-family: monospace;}
+.codeblock {
+padding: 1rem;
+background-color: #eee;
+font-family: monospace;
+}
+
+.showcase {
+display: flex;
+flex-flow: column nowrap;
+justify-content: flex-start;
+align-items: center;
+max-width: 100%;
+}
+.showcase * {
+max-width: 100%;
+}
+
+.codepen,
+.codepen:link,
+.codepen:visited,
+.codepen:active {color: black;}
+.codepen:hover,
+.codepen:focus {
+color: white;
+background-color: black;
+}
+.github,
+.github:link,
+.github:visited,
+.github:active {color: #161312;}
+.github:hover,
+.github:focus {
+background-color: #161312;
+color: white;
+}
+.linkedin,
+.linkedin:link,
+.linkedin:visited,
+.linkedin:active {color: #0077B5;}
+.linkedin:hover,
+.linkedin:focus {
+background-color: #0077B5;
+color: white;
+}
+.stackoverflow,
+.stackoverflow:link,
+.stackoverflow:visited,
+.stackoverflow:active {color: #f48024;}
+.stackoverflow:hover,
+.stackoverflow:focus {
+background-color: #bbb;
+color: #f48024;
+}
+.twitter,
+.twitter:link,
+.twitter:visited,
+.twitter:active {color: #1da1f3;}
+.twitter:hover,
+.twitter:focus {
+background-color: #1da1f3;
+color: white;
+}
+/* Based on Bootstrap, extra-small to small */
+@media (min-width: 576px) {
+
+}
+/* Based on Bootstrap, small to medium */
+@media (min-width: 768px) {
+body {
+grid-template-rows: auto auto 1fr auto;
+grid-template-areas:
+"header header"
+"nav nav"
+"main aside"
+"footer footer";
+}
+nav { flex-flow: row nowrap; }
+nav * {padding: 0.5rem;}
+nav a:not(.active),
+nav div.middle {display: block;}
+nav div.open-icon,
+nav span {display: none;}
+}
+/* Based on Bootstrap, medium to large */
+@media (min-width: 992px) {
+
+}
+/* Based on Bootstrap, large to extra-large */
+@media (min-width: 1200px) {
+
 }

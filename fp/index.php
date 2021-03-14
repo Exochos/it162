@@ -53,8 +53,9 @@ $nav1['blog.php'] = "Blog";
 <header>
   <h1 id="top"><i class="fa fa-pagelines" aria-hidden="true"></i>Kaulanai</h1></header>
   <nav role="navigation">
-    <div id="nav-open" class="open-icon">≡</div>
+
            <?=makeLinks($nav1)?>   
+      <div id="nav-open" class="open-icon">≡</div>
     <!--
     <a class="active" href="index.php">Home</a>
     <a href="#about">About</a>

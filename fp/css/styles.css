@@ -5,13 +5,14 @@ html {
 }
 .hero { 
     position: absolute; 
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url('../images/pexels-nataliya-vaitkevich-4691377.jpeg');
-    background-size:center;
+    background-size: cover;
+    background-repeat: no-repeat;
     z-index: 0;
 }
 .hero::before {
@@ -78,9 +79,10 @@ nav {
     max-height: 100vh;
     font-size: 2rem;
     font-weight: bold;
-    opacity: .9;
     margin: 3px;
     font-weight: bolder;
+    background: white;
+    z-index: 12;
 }
 nav * {
     margin: 0;
@@ -98,7 +100,7 @@ nav a:not(.active),
 nav a:not(.open-icon) {display: none; justify-content: start;justify-self:start;}
 nav span {display: inline;}
 nav.open a {display: block;}
-nav a.active {display: block; background:red;}
+nav a.active {display: block; background:rgb(116, 149, 255);opacity: .8;}
 nav div.middle {
 display: none;
 flex-grow: 1;

@@ -25,6 +25,7 @@ html {
 a {
       text-decoration:none;
       color:rgb(0, 0, 0);
+      padding-right: 1em;
 }
 #myVideo {
       position: fixed;
@@ -77,11 +78,14 @@ i {
   font-size: 40px;
 }
  #mine {
+    padding-right: 1em;
+    padding-left: 1em;
     background-color: rgba(0, 120, 190, 0.342);
-
-    padding-right: 30px;
-    border:rgb(0, 0, 0) 2px solid;
-    border-radius: 15px;
+    border:rgb(0, 0, 0) 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-self: center;
   }
   .logo {
       height:80px;
@@ -214,7 +218,7 @@ i {
       display:flex;
       flex-flow:row nowrap;
       flex-direction: row;
-      justify-content: flex-end;
+      justify-content: space-between;
       height:80px;
       margin-top:0;
     }

@@ -20,7 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merienda&display=swap" rel="stylesheet">
     <!-- End Styles -->
     </head>
 
@@ -31,7 +31,7 @@
     <header class="header">
         <!-- Logo -->
         <a class="logo" href="index.php" style="font-family: 'Dancing Script', cursive;
-            font-family: 'Merienda', cursive;padding-right:20px;color:brown;"><b>Kaulanai</b></a>
+            font-family: 'Merienda', cursive;padding-right:20px;"><b>Kaulanai</b></a>
         <nav>
             <input type="checkbox" id="show-menu-input-checkbox" role="button">
             <label for="show-menu-input-checkbox" id="main-menu-toggler" class="flex-container flex-vcenter flex-hcenter"><div id="main-menu-toggler-icon" class="flex-grow"></div></label>

@@ -43,6 +43,7 @@ $nav1['blog.php'] = "Blog";
 <script src="https://use.fontawesome.com/ffba7c47d5.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"></script>
+
 </head>
 <!-- End Header -->
 

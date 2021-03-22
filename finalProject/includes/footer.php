@@ -14,6 +14,10 @@
 <!-- End Footer -->
 <!-- End Body -->
 <script src="js/scripts.js"></script>
-<script></script>
+<script>
+  $( document ).ready(function() {
+    $('$myVideo').html('<source src="images/video2.mp4" type="video/mp4"></source>');
+});
+</script>
 </body>
 </html>

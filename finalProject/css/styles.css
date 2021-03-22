@@ -113,11 +113,18 @@ i {
     font-size: 38px;
 }
 .submit {
-  background-color: blue;
+  background-color: white;
   font-size: 1.5em;
 }
 small {
   font-size: .4em;
+}
+#callToAction {
+  background-color: orange; 
+  font-size:1.4em;
+  border-radius: 10px;
+  padding:10px;
+  margin: 10px;
 }
 .contact {
   display:flex;
@@ -189,13 +196,6 @@ small {
     padding:24px;
     display:flex;
     justify-content:center;align-items:center;
-  }
-  .callToAction {
-    background-color: orange; 
-    font-size:1.4em;
-    border-radius: 10px;
-    padding:10px;
-    margin: 10px;
   }
   #main-menu-toggler-icon:after,
   #main-menu-toggler-icon:before {

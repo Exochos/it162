@@ -37,8 +37,12 @@
             <label for="show-menu-input-checkbox" id="main-menu-toggler" class="flex-container flex-vcenter flex-hcenter"><span id="main-menu-toggler-icon" class="flex-grow"></span></label>
             <ul class="mainMenu accordion" id="mainMenu">
                 <?=makeLinks($nav1)?>  
-                <li><a href="contact.php"><button class="callToAction"><b>Schedule Now</b></button></a></li>
+                <li><a id="callToAction" href="contact.php"><b>Schedule Now</b></a></li>
             </ul> 
         </nav>
     </header> <!-- End Header-->
     <div style="height:100px;">&nbsp;</div>
+    <div class="muted">&nbsp;</div>
+    <video autoplay muted loop id="myVideo" id="myVideo">
+        <source src="images/video2.mp4" type="video/mp4">
+    </video>

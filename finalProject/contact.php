@@ -21,14 +21,14 @@
     <label for="email">Email:</label><br>
     <input type="email" id="email" placeholder="Email"><br>
     <label for="message">Message:</label><br>
-    <textarea type="text" id="message" rows="6" cols="50"></textarea><br>
+    <textarea id="message" rows="6" cols="50"></textarea><br>
     <div class="g-recaptcha" data-sitekey="6LcEQ4kaAAAAAMlQrU2brFzS7kPRrGxE-a9t9-1t"></div><br>
     <input class="submit" type="submit" value="Submit">
 
   </form>
 </div><!-- End Contact form -->
 </main>
-<script type="text/javascript">
+<script>
       var onloadCallback = function() {
         grecaptcha.render('html_element', {
           'sitekey' : '6LcEQ4kaAAAAAMlQrU2brFzS7kPRrGxE-a9t9-1t'

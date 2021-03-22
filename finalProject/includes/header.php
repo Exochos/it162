@@ -44,5 +44,4 @@
     <div style="height:100px;">&nbsp;</div>
     <div class="muted">&nbsp;</div>
     <video autoplay muted loop id="myVideo">
-
     </video>

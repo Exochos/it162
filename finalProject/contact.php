@@ -12,23 +12,24 @@
 <main>
 <div class="subheader"><?php echo $title; ?></div>
 <div class="contact">
-  <form action="?" method="POST">
   <formset>
-    <label for="name">Name:</label>
+  <form action="?" method="POST">
+  
+    <label for="name">Name:</label><br>
     <input type="text" id="name" placeholder="Write your name here.."> </input><br>
-    <label for="phone">Phone Number:</label>
+    <label for="phone">Phone Number:</label><br>
     <input type="tel" id="phone" placeholder="Phone Number"></input><br>
-    <label for="email">Email:</label>
+    <label for="email">Email:</label><br>
     <input type="email" id="email" placeholder="Email"> </input><br>
-    <textarea id="text" rows="6" cols="50" placeholder="Type your message here!"> </textarea>
-  </p>
+    <label for="message">Message:</label><br>
+    <textarea type="text" id="message" rows="6" cols="50" placeholder="Type your message here!"> </textarea><br>
 
-  <div class="g-recaptcha" data-sitekey="6LcEQ4kaAAAAAMlQrU2brFzS7kPRrGxE-a9t9-1t"></div>
-  <br/>
-  <input class="submit" type="submit" value="Submit">
-</formset>
+    <div class="g-recaptcha" data-sitekey="6LcEQ4kaAAAAAMlQrU2brFzS7kPRrGxE-a9t9-1t"></div><br>
+    
+    <input class="submit" type="submit" value="Submit">
+
   </form>
-
+  </formset>
 </div><!-- End Contact form -->
 
 </div>

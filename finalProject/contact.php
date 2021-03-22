@@ -13,10 +13,17 @@
 <div class="contact">
 <form action="?" method="POST">
 <div class="subheader"><?php echo $title; ?></div>
-  <p type="Name:"><input placeholder="Write your name here.."> </input></p>
-  <p type="Phone:"><input placeholder="Phone Number"> </input></p>
+  <span type="Name">
+    <input placeholder="Write your name here.."> </input>
+</span>
+<span type="Phone:">
+  <input placeholder="Phone Number"> </input>
+</span>
   <p type="Email:"><input placeholder="Email"> </input></p>
-  <p type="Message:"><textarea id="text" rows="6" cols="50" value="Enter You Message here!"> </textarea></p>
+  <p type="Message:">
+    <textarea id="text" rows="6" cols="50" placeholder="Type your message here!"> </textarea>
+  </p>
+
   <div class="g-recaptcha" data-sitekey="6LcEQ4kaAAAAAMlQrU2brFzS7kPRrGxE-a9t9-1t"></div>
   <br/>
   <input class="submit" type="submit" value="Submit">

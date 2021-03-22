@@ -10,13 +10,13 @@
 <main>
 <div class="subheader"><?php echo $title; ?></div>
 
-<p style="font-family: ariel;">
+<p class="lorem">
 Blog 1
 </p>
 <p>
 Blog 2
 </p>
-<p style="font-family: ariel;">
+<p class="lorem">
   Blog 3
 </p>
 </main>

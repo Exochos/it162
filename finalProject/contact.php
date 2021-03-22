@@ -16,19 +16,17 @@
 </video>
 <main>
 <div class="contact">
-<form class="form">
-  <h2>CONTACT US</h2>
+<form action="?" method="POST">
+<h2>CONTACT US</h2>
   <p type="Name:"><input placeholder="Write your name here.."></input></p>
   <p type="Email:"><input placeholder="Phone Number"></input></p>
   <p type="Email:"><input placeholder="Email"></input></p>
   <p type="Message:"><input placeholder="Message"></input></p>
   <button>Send Message</button>
-</form>
-<form action="?" method="POST">
-      <div class="g-recaptcha" data-sitekey="6LcEQ4kaAAAAAMlQrU2brFzS7kPRrGxE-a9t9-1t"></div>
-      <br/>
-      <input type="submit" value="Submit">
-    </form>
+  <div class="g-recaptcha" data-sitekey="6LcEQ4kaAAAAAMlQrU2brFzS7kPRrGxE-a9t9-1t"></div>
+  <br/>
+  <input type="submit" value="Submit">
+  </form>
 </div><!-- End Contact form -->
 
 </div>

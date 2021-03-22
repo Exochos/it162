@@ -12,7 +12,6 @@
 <main>
 <div class="subheader"><?php echo $title; ?></div>
 <div class="contact">
-  <formset>
   <form action="?" method="POST">
   
     <label for="name">Name:</label><br>
@@ -27,7 +26,6 @@
     <input class="submit" type="submit" value="Submit">
 
   </form>
-  </formset>
 </div><!-- End Contact form -->
 </main>
 <script type="text/javascript">

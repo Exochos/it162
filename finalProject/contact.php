@@ -22,10 +22,8 @@
     <label for="email">Email:</label><br>
     <input type="email" id="email" placeholder="Email"> </input><br>
     <label for="message">Message:</label><br>
-    <textarea type="text" id="message" rows="6" cols="50" placeholder="Type your message here!"> </textarea><br>
-
+    <textarea type="text" id="message" rows="6" cols="50"></textarea><br>
     <div class="g-recaptcha" data-sitekey="6LcEQ4kaAAAAAMlQrU2brFzS7kPRrGxE-a9t9-1t"></div><br>
-    
     <input class="submit" type="submit" value="Submit">
 
   </form>

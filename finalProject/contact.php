@@ -10,24 +10,25 @@
 
 <!-- Main Content Goes Here -->
 <main>
-<div class="contact">
-<form action="?" method="POST">
 <div class="subheader"><?php echo $title; ?></div>
-  <span type="Name">
-    <input placeholder="Write your name here.."> </input>
-</span><br>
-<span type="Phone:">
-  <input placeholder="Phone Number"> </input>
-</span><br>
-  <p type="Email:"><input placeholder="Email"> </input></p>
-  <p type="Message:">
+<div class="contact">
+  <form action="?" method="POST">
+  <formset>
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Write your name here.."> </input><br>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" placeholder="Phone Number"></input><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Email"> </input><br>
     <textarea id="text" rows="6" cols="50" placeholder="Type your message here!"> </textarea>
   </p>
 
   <div class="g-recaptcha" data-sitekey="6LcEQ4kaAAAAAMlQrU2brFzS7kPRrGxE-a9t9-1t"></div>
   <br/>
   <input class="submit" type="submit" value="Submit">
+</formset>
   </form>
+
 </div><!-- End Contact form -->
 
 </div>

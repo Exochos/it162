@@ -37,7 +37,7 @@
             <label for="show-menu-input-checkbox" id="main-menu-toggler" class="flex-container flex-vcenter flex-hcenter"><span id="main-menu-toggler-icon" class="flex-grow"></span></label>
             <ul class="mainMenu accordion" id="mainMenu">
                 <?=makeLinks($nav1)?>  
-                <li><a href=""><button style="background-color: orange; font-size:1.2em;border-radius: 10px;padding:10px;"><b>Schedule Now</b></button></a></li>
+                <li><button class="callToAction"><a href="contact.php"><b>Schedule Now</b></a></button></li>
             </ul> 
         </nav>
     </header> <!-- End Header-->

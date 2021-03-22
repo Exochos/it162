@@ -190,6 +190,13 @@ small {
     display:flex;
     justify-content:center;align-items:center;
   }
+  .callToAction {
+    background-color: orange; 
+    font-size:1.2em;
+    border-radius: 10px;
+    padding:10px;
+    margin: 10px;
+  }
   #main-menu-toggler-icon:after,
   #main-menu-toggler-icon:before {
   content: "";

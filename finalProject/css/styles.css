@@ -250,7 +250,7 @@ small {
       margin-top:0;
     }
     #myVideo {
-      display: visible;
+      display: block;
     }
       .mainMenu>li {
       flex:1 0 auto;

@@ -43,6 +43,6 @@
     </header> <!-- End Header-->
     <div style="height:100px;">&nbsp;</div>
     <div class="muted">&nbsp;</div>
-    <video autoplay muted loop id="myVideo" id="myVideo">
-        <source src="images/video2.mp4" type="video/mp4">
+    <video autoplay muted loop id="myVideo">
+
     </video>

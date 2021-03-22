@@ -8,14 +8,9 @@
 
 
 <!-- Main Content Goes Here -->
-<div class="muted">&nbsp;</div>
-<video autoplay muted loop id="myVideo">
-  <source src="images/video2.mp4" type="video/mp4">
-</video>
 <main>
-
 <div class="subheader"><?php echo $title; ?></div>
-
+<p>
 
 </main>
 <!-- End Main Content -->

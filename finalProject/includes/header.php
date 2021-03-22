@@ -31,11 +31,10 @@
     <!-- Header -->
     <header class="header">
         <!-- Logo -->
-        <a class="logo" href="index.php" style="font-family: 'Dancing Script', cursive;
-            font-family: 'Merienda', cursive;padding-right:20px;"><b>Kaulanai</b></a>
+        <a class="logo" href="index.php"><b>Kaulanai</b></a>
         <nav>
             <input type="checkbox" id="show-menu-input-checkbox" role="button">
-            <label for="show-menu-input-checkbox" id="main-menu-toggler" class="flex-container flex-vcenter flex-hcenter"><div id="main-menu-toggler-icon" class="flex-grow"></div></label>
+            <label for="show-menu-input-checkbox" id="main-menu-toggler" class="flex-container flex-vcenter flex-hcenter"><span id="main-menu-toggler-icon" class="flex-grow"></span></label>
             <ul class="mainMenu accordion" id="mainMenu">
                 <?=makeLinks($nav1)?>  
                 <li><a href=""><button style="background-color: orange; font-size:1.2em;border-radius: 10px;padding:10px;"><b>Schedule Now</b></button></a></li>

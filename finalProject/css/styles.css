@@ -90,6 +90,9 @@ i {
   .logo {
       height:80px;
       flex: 0 0 200px;
+      font-family: 'Dancing Script', cursive;
+      font-family: 'Merienda', cursive;
+      padding-right:20px;;
       font-size:42px;display:block;text-align:center;align-items:center;justify-content:center;margin:20px auto;
   }
   .footer {
@@ -124,6 +127,9 @@ small {
   width: "100%";
   height: 60%;
   border-radius: 10px;
+}
+.spacer {
+  display: none;
 }
 .subheader {
   font-family: 'Dancing Script', cursive;
@@ -250,5 +256,9 @@ small {
       width:auto;
       justify-content: space-evenly;
       padding-left:10px;
+    }
+    .spacer {
+      display: inline;
+      width: 40%;
     }
   }

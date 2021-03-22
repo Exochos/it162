@@ -22,7 +22,7 @@
   <p type="Name:"><input placeholder="Write your name here.."></input></p>
   <p type="Email:"><input placeholder="Phone Number"></input></p>
   <p type="Phone"><input placeholder="Email"></input></p>
-  <p type="Message:"><input placeholder="Message" size="50" height="50"></input></p>
+  <p type="Message:"><textarea id="text" rows="6" cols="50" value="Enter You Message here!"></textarea></p>
   <div class="g-recaptcha" data-sitekey="6LcEQ4kaAAAAAMlQrU2brFzS7kPRrGxE-a9t9-1t"></div>
   <br/>
   <input class="submit" type="submit" value="Submit">

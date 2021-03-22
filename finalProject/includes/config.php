@@ -62,7 +62,7 @@ function makeLinks($linkArray) {
   foreach($linkArray as $url => $text) {
       if($url == THIS_PAGE)
       {
-      $myReturn .= '</li><a id="mine" class="active" href="' . $url . '" active>' . $text . '</a></li>' . PHP_EOL;
+      $myReturn .= '<li><a id="mine" class="active" href="' . $url . '" active>' . $text . '</a></li>' . PHP_EOL;
     }else{
       $myReturn .= '<li><a href="' . $url . '">' . $text . '</a></li>'  . PHP_EOL;
     }    

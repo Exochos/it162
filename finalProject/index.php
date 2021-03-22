@@ -18,9 +18,7 @@
 
 
 </main>
-<scipt>
-    
-</script>
+</div>
 <!-- End Main Content -->
 
 <?php

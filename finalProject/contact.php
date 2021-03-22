@@ -24,12 +24,21 @@
   <p type="Message:"><input placeholder="Message"></input></p>
   <button>Send Message</button>
 </form>
+<form action="?" method="POST">
+      <div id="html_element"></div>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
 </div><!-- End Contact form -->
 
 </div>
 </main>
-<scipt>
-    
+<script type="text/javascript">
+      var onloadCallback = function() {
+        grecaptcha.render('html_element', {
+          'sitekey' : '6LcEQ4kaAAAAAMlQrU2brFzS7kPRrGxE-a9t9-1t'
+        });
+      };
 </script>
 <!-- End Main Content -->
 

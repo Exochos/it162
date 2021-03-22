@@ -9,7 +9,7 @@
 
 <!-- Main Content Goes Here -->
 <div class="muted">&nbsp;</div>
-<video autoplay muted loop id="myVideo" id="myVideo">
+<video autoplay muted loop id="myVideo">
   <source src="images/video2.mp4" type="video/mp4">
 </video>
 <main>
@@ -18,7 +18,6 @@
 
 
 </main>
-</div>
 <!-- End Main Content -->
 
 <?php

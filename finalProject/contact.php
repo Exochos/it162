@@ -25,8 +25,8 @@
   <button>Send Message</button>
 </form>
 <form action="?" method="POST">
-      <div id="html_element"></div>
-      <br>
+      <div class="g-recaptcha" data-sitekey="6LcEQ4kaAAAAAMlQrU2brFzS7kPRrGxE-a9t9-1t"></div>
+      <br/>
       <input type="submit" value="Submit">
     </form>
 </div><!-- End Contact form -->

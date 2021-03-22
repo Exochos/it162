@@ -7,7 +7,7 @@
 <head>
 
     <meta charset="utf-8">
-    <title>$title</title>
+    <title><?php echo $title; ?></title>
     <meta name="description" content="Kalunai">
     <meta name="author" content="Jeremy Ward">
 

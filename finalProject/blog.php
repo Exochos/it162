@@ -12,7 +12,7 @@
   <source src="images/video2.mp4" type="video/mp4">
 </video>
 <main>
-<div style="font-family: 'Dancing Script', cursive;font-size: 60px;">About Celeste</div>
+<div class="subheader"><?php echo $title; ?></div>
 
 <p style="font-family: ariel;">
 Blog 1

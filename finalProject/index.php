@@ -1,7 +1,8 @@
 <?php 
+    session_start();
     include('includes/config.php');
     include('includes/header.php');
-    session_start();
+    
 ?>
 
 
@@ -12,8 +13,8 @@
   <source src="images/video2.mp4" type="video/mp4">
 </video>
 <main>
-    
-<div style="font-family: 'Dancing Script', cursive;font-size: 60px;">Index Page</div>
+
+<div class="subheader"><?php echo $title; ?></div>
 
 
 </main>

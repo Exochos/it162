@@ -5,6 +5,7 @@
     include('includes/config.php');
     include('includes/header.php');
     session_start();
+
 ?>
 
 
@@ -17,15 +18,14 @@
 <main>
 <div class="contact">
 <form action="?" method="POST">
-<h2>CONTACT US</h2>
+<div class="subheader"><?php echo $title; ?></div>
   <p type="Name:"><input placeholder="Write your name here.."></input></p>
   <p type="Email:"><input placeholder="Phone Number"></input></p>
-  <p type="Email:"><input placeholder="Email"></input></p>
-  <p type="Message:"><input placeholder="Message"></input></p>
-  <button>Send Message</button>
+  <p type="Phone"><input placeholder="Email"></input></p>
+  <p type="Message:"><input placeholder="Message" size="50" height="50"></input></p>
   <div class="g-recaptcha" data-sitekey="6LcEQ4kaAAAAAMlQrU2brFzS7kPRrGxE-a9t9-1t"></div>
   <br/>
-  <input type="submit" value="Submit">
+  <input class="submit" type="submit" value="Submit">
   </form>
 </div><!-- End Contact form -->
 

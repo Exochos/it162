@@ -15,6 +15,48 @@ $nav1['blog.php'] = "Blog";
 $nav1['contact.php'] = "Contact";
 $title = $_SERVER['PHP_SELF'];
 
+switch(THIS_PAGE) {
+
+    case 'index.php' : 
+        $title = "Home";
+        $logo = 'fa fa-home';
+        $PageID = 'Index';
+    break;
+
+    case 'about.php' : 
+        $title = "About Celeste";
+        $logo = 'fa fa-home';
+        $PageID = 'About';
+    break;
+
+    case 'services.php' : 
+        $title = "Services";
+        $logo = 'fa fa-home';
+        $PageID = 'Services';
+    break;
+
+    case 'blog.php' : 
+        $title = "Blog";
+        $logo = 'fa fa-home';
+        $PageID = 'Blog';
+    break;
+
+    case 'contact.php' : 
+        $title = "Contact Us";
+        $logo = 'fa fa-home';
+        $PageID = "Contact us!";
+    break;
+
+    default: 
+    $title = THIS_PAGE;
+    $logo = 'fa-home';
+    $PageID = 'Welcome';
+
+}
+
+
+
+
 function makeLinks($linkArray) {
   $myReturn = '';
   foreach($linkArray as $url => $text) {

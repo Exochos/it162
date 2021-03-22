@@ -15,10 +15,10 @@
 <div class="subheader"><?php echo $title; ?></div>
   <span type="Name">
     <input placeholder="Write your name here.."> </input>
-</span>
+</span><br>
 <span type="Phone:">
   <input placeholder="Phone Number"> </input>
-</span>
+</span><br>
   <p type="Email:"><input placeholder="Email"> </input></p>
   <p type="Message:">
     <textarea id="text" rows="6" cols="50" placeholder="Type your message here!"> </textarea>

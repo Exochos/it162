@@ -29,8 +29,6 @@
   </form>
   </formset>
 </div><!-- End Contact form -->
-
-</div>
 </main>
 <script type="text/javascript">
       var onloadCallback = function() {

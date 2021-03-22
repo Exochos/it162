@@ -60,14 +60,13 @@ switch(THIS_PAGE) {
 function makeLinks($linkArray) {
   $myReturn = '';
   foreach($linkArray as $url => $text) {
-      echo "<li>";
       if($url == THIS_PAGE)
       {
-      $myReturn .= '<a id="mine" class="active" href="' . $url . '" active>' . $text . '</a>' . PHP_EOL;
+      $myReturn .= '</li><a id="mine" class="active" href="' . $url . '" active>' . $text . '</a></li>' . PHP_EOL;
     }else{
-      $myReturn .= '<a href="' . $url . '">' . $text . '</a>'  . PHP_EOL;
+      $myReturn .= '<li><a href="' . $url . '">' . $text . '</a></li>'  . PHP_EOL;
     }    
-    echo "</li>";
+    
   }    
   return $myReturn;    
 }

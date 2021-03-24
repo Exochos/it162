@@ -48,6 +48,7 @@ a {
   z-index: -9;
   background-color: white;
   opacity: .6;
+  background-image: url("images/IMG_20200112_152632.jpg");
 }
     
   :root{
@@ -57,7 +58,6 @@ a {
   main {
     margin: 10px auto;
     padding:1em;
-    background-image: url("images/IMG_20200112_152632.jpg");
     border-radius: 10px;
   }
   .content {

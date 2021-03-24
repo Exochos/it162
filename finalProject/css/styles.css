@@ -55,6 +55,7 @@ a {
     --maxSiteWidth:1080px;
   }
   main {
+    background-image: url("images/IMG_20200112_152632.jpg");
     margin: 10px auto;
     padding:1em;
     background-color: rgba(6, 164, 255, 0.198);

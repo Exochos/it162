@@ -2,10 +2,7 @@
     session_start();
     include('includes/config.php');
     include('includes/header.php');
-    
 ?>
-
-
 <div class="#myVideo">
 <img src="images/IMG_20200112_152632.jpg" alt="celeste">
 </div>

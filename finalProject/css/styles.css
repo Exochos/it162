@@ -124,8 +124,8 @@ small {
 a:hover {
   border-radius: 10px;
   padding: 6px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   transition: all 0.4s ease 0s;
   font-size: 1.02em;
   box-shadow: 3px 3px #007bff;

@@ -121,6 +121,16 @@ i {
 small {
   font-size: .4em;
 }
+a:hover {
+  border-radius: 10px;
+  padding: 6px;
+  background-color: black;
+  color: white;
+  transition: all 0.4s ease 0s;
+  font-size: 1.02em;
+  box-shadow: 3px 3px #007bff;
+}
+
 .label {
   margin-top: .2em;
   margin-bottom: .2em;

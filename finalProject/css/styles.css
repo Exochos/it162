@@ -121,6 +121,10 @@ i {
 small {
   font-size: .4em;
 }
+.label {
+  margin-top: .2em;
+  margin-bottom: .2em;
+}
 #callToAction {
   background-color: orange; 
   font-size:1.4em;
